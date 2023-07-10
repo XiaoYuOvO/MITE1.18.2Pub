@@ -47,3 +47,14 @@
 * ferritecore-4.2.1-fabric
 * phosphor-fabric-mc1.18.x-0.8.1
 * appliedenergistics2-11.0.0 *(部分支持)*
+* architectury-4.11.93-fabric
+* bettercombat-fabric-1.6.2+1.18.2
+* combatroll-fabric-1.1.5+1.18.2
+* crittersandcompanions-fabric-1.18.2-1.0.2
+* dual_riders-1.18.2-1.1.1-fabric
+* emotecraft-for-MC1.18.2-2.2.7-b.build.50-fabric
+* InventoryProfilesNext-fabric-1.18.2-1.10.6
+* libIPN-fabric-1.18.2-3.0.2
+* mcw-bridges-2.0.3fabric-mc1.18.2
+* paladin-furniture-mod-1.1.1-fabric-mc1.18.2
+* jei-1.18.2-fabric-10.2.1.1005
