@@ -14,18 +14,8 @@
 * 本模组有开发者模式,客户端可通过在游戏启动参数中加`--devMode`开启
 
 ## 制作服务端
-### 请先制作好客户端后再进行这步,本教程将以HMCL启动器为例,其他启动器根据情况修改步骤
-1. 安装好1.18客户端后打开HMCL启动器
-2. 打开版本列表![img.png](images/zh_cn/ver_list.png)
-3. 找到1.18-MITE并点击右边三个点,选择导出启动脚本,保存![img.png](images/zh_cn/generate_bat.png)
-4. 将生成出来的启动脚本以任意文本编辑软件(如记事本)打开![img.png](images/zh_cn/edit.png)
-5. 向下翻找,找到`net.minecraft.client.main.Main`,删除这个和此行后面的所有内容,如图\
-    ![img.png](images/zh_cn/delete_content.png)\
-    删除后如图\
-    ![img.png](images/zh_cn/after_delete.png)
-6. 在`1.18-MITE.jar`后加上`net.minecraft.server.Main --nogui`(注意空格),如图
-    ![img.png](images/zh_cn/add_content.png)
-7. 保存内容,双击更改后的脚本启动服务器
+* 现版本制作服务端只需要使用安装器在安装时勾选安装服务端,然后再启动器中选择带-server后缀的版本启动即可
+* 请注意在HMCL启动服务端时需要打开查看日志才能够查看服务端日志信息,默认的服务端窗口将不会显示日志
 ### 注意事项&常见问题
 * 服务器的目录就是在客户端的根目录,若要更改,请修改启动脚本中`cd /D`后的路径
 * 如果服务器一开启就退出,并显示如下内容:\
